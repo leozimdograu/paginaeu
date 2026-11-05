@@ -1,0 +1,79 @@
+jogo : 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | Nossa Escola</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--header é a parte do cabeçalho do site, é o topo da página-->
+<header class="cabecalho-itens">
+<img class="cabecalho-imagem" src="trabalho 0.2.jfif" alt="Logo da Página">
+<h1 class="titulo_site">Gabriel Fernandes</h1>
+<div class="sociais">
+    <img class="setup" src="setup 1.jfif" alt="Meu setup">
+</div>
+</header>
+<div class="dropdown">
+  <button class="dropbtn">Menu</button>
+  <div class="dropdown-content">
+  <a href="amigos.html">Amigos</a>
+  <a href="sobre.html">Sobre mim</a>
+  <a href="melhor.html">Melhor video</a>
+  <a href="jogo.html">Jogo</a>
+  </div>
+</div>
+
+
+<!-- CONTEÚDO PRINCIPAL DO JOGO -->
+
+
+<section id="meu-jogo">
+
+    <h1>Meu Jogo de Plataforma</h1>
+
+    <!-- INFORMAÇÕES DO JOGO -->
+    <div id="game-info">
+        <span>Moedas: <b id="coin-count">0</b></span>
+        <span>Vidas: <b id="live-count">3</b></span>
+        <span>Fase: <b id="level-count">1</b></span>
+    </div>
+
+    <!-- ÁREA ONDE O JOGO É DESENHADO -->
+    <div id="game-container">
+
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+
+        <!-- TELA DE INÍCIO E FIM -->
+        <div id="game-screen-overlay">
+            <h2 id="overlay-text">Pronto para jogar?</h2>
+            <button id="restart-btn">Começar</button>
+        </div>
+
+    </div>
+
+    <!-- BOTÃO DE TELA CHEIA -->
+    <button id="fullscreen-btn">Tela cheia</button>
+
+</section>
+
+
+
+
+<!--Seção rodapé é a parte final da paragrafo 3 da página-->
+<footer class="escola">
+
+    
+
+
+
+<p></p>
+<p>Oque mais achei dificil fazer, foi alinhar as coisas no centros, porque, uma coisa errada e tudo ficara baguncado.</p>
+<p> </p>
+</footer>
+</body>
+</html>
+
+<script src="script.js"></script>
